@@ -1,0 +1,90 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;
+}
+
+.header {
+    text-align: center;
+    color: azure;
+    background-color: green;
+}
+
+.header #navigation {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgreen;
+    padding: 6px;
+    text-size-adjust: 10px;
+}
+
+.header #navigation a {
+    text-decoration: none;
+    color: azure;
+}
+
+.header #title {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 20px;
+}
+
+.schedule {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 20px;
+}
+
+#schedule_body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.schedule_box {
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    margin: 8px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(235, 231, 231);
+}
+
+.schedule_box:hover {
+    background-color: lightgray;
+}
+
+#type_physical {
+    background-color: yellow;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#type_tactical {
+    background-color: lightgreen;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#type_combat {
+    background-color: lightcoral;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    background-color: darkgreen;
+    color: azure;
+    padding: 5px;
+}
