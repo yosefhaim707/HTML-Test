@@ -27,7 +27,7 @@ body {
     justify-content: center;
 }
 
-.description {
+.details {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
@@ -35,7 +35,12 @@ body {
     margin: 20px;
 }
 
-.schedule {
+.details label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.sign_up {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
@@ -43,48 +48,53 @@ body {
     margin: 20px;
 }
 
-#schedule_body {
+.sign_up_box form {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.schedule_box {
+    align-items: stretch;
+    padding: 10px;
+    justify-items: baseline;
+    background-color: rgb(227, 227, 227);
     border-radius: 8px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-    margin: 8px;
-    padding: 8px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(235, 231, 231);
 }
 
-.schedule_box:hover {
-    background-color: lightgray;
+.sign_up_box label {
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
-#type_physical {
-    background-color: yellow;
-    border-radius: 6px;
-    text-align: center;
+.sign_up_box input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.sign_up_box input[type="radio"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    align-self: flex-start;
 }
 
-#type_tactical {
-    background-color: lightgreen;
-    border-radius: 6px;
-    text-align: center;
+.sign_up_box select {
+    margin-bottom: 10px;
+    padding: 5px;
 }
 
-#type_combat {
-    background-color: lightcoral;
-    border-radius: 6px;
-    text-align: center;
-}
-
-.footer {
-    text-align: center;
-    background-color: darkgreen;
+.sign_up_box #submit {
+    background-color: green;
     color: azure;
     padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: darkgreen;
+    padding: 6px;
+    text-size-adjust: 10px;
+    color: azure;
+    bottom: 0;
+    width: 100%;
 }

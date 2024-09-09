@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleSchedule.css">
+    <title>Schedule</title>
+</head>
+<body>
+    <div class="header"></div>
+        <nav class="navigation">
+            <a href="/index.html">Home</a>
+            <a href="#">Back To Schedule</a>
+        </nav>
+        <div class="header_title">
+            <h1>Combat Skills - Urban Combat</h1>
+        </div>
+    </div>
+    <div class="details">
+        <h2>Training Details</h2>
+        <label for="date">Date:</label>
+        <p id="date">11-09-2024</p>
+        <label for="instructor">Instructor:</label>
+        <p id="instructor">Israel Katz</p>
+        <label for="description">Description:</label>
+        <p id="description">This training will cover the basics of combat.</p>
+        <label for="duration">Duration:</label>
+        <p id="duration">2 hours</p>
+        <label for="equipment">Equipment:</label>
+        <p id="equipment">AK-47, M4A1, Pistol</p>
+    </div>
+    <div class="sign_up">
+        <h2 class="sign_up_title">Sign Up For Combat Skills</h2>
+        <div class="sign_up_box">
+            <form action="#" method="post">
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name">
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name">
+                <label for="id_number">ID Number:</label>
+                <input type="text" id="id_number" name="id_number">
+                <label for="rank">Rank:</label>
+                <select name="rank" id="rank">
+                    <option value="Private">Private</option>
+                    <option value="Corporal">Corporal</option>
+                    <option value="Sergeant">Sergeant</option>
+                </select>
+                <label for="gender">Gender:</label>
+                <!-- radio buttons -->
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <input id="submit" type="submit" value="Sign Up">
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; 2024 Army Training Portal. All Rights Reserved</p>
+    </div>
+</body>
+</html>
